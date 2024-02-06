@@ -30,9 +30,18 @@ function Post() {
             </div>
             <div className='column_2'>
                 <div className='title'>
-                    <img src="./imagines/discord avatar.png" alt="" className='ravatar'/>
+                    <img src="./imagines/uwaga.png" alt="" className='ravatar'/>
                     <div className='rplace'>
                         r/Cykadło
+                    </div>
+                    <div className='kropa'>
+                    •
+                    </div>
+                    <div className='user_post'>
+                    Posted by u/Rocha2115 
+                    </div>
+                    <div className='time_post'>
+                        5 hours ago   
                     </div>
 
                 </div>

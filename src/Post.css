@@ -30,8 +30,9 @@
 .counter{
     text-align: center;
     font-size: 13px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #797979;
+    font-weight: bold;
 }
 .column_2{
     display: flex;
@@ -40,12 +41,35 @@
 }
 .title{
     display: flex;
+    margin: 10px;
+    height: 20px;
+    width: auto;
+    align-items: center;
 }
 .ravatar{
     aspect-ratio: 1;
     width: 20px;
     height: 20px;
+    margin-right: 5px;
+    border-radius: 100%;
 }
-.rlace{
-
+.rplace{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.kropa{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #646464;
+    font-size: small;
+}
+.user_post{
+    color: #787C7E;
+    font-size: 15px;
+}
+.time_post{
+    margin-left: 3px;
+    color: #787C7E;
+    font-size: 15px;
 }
