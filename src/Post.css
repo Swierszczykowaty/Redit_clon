@@ -1,4 +1,51 @@
 .post{
     margin: 20px;
+    display: flex;
+    width: 640px;
+    height: 400px;
+    background: #ffffff;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    justify-content: start;
+    overflow: hidden;
+}
+.column_1{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background: #f8f9fa;
+    align-items: center;
+}
+.arrow{
+    display: flex;
+    font-size: 25px;
+    color: #646464;
+}
+
+.arrows_counter{
+    margin-top: 10px;
+    align-items: center;
+    
+}
+.counter{
+    text-align: center;
+    font-size: 13px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #797979;
+}
+.column_2{
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+}
+.title{
+    display: flex;
+}
+.ravatar{
+    aspect-ratio: 1;
+    width: 20px;
+    height: 20px;
+}
+.rlace{
 
 }

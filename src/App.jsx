@@ -31,7 +31,7 @@ function App() {
       <div className="main">
         <div className='create' id='search'>
           <div className='avatar_circle'>
-            <img src="./imagines/344308096_547741020772353_384304532245554270_n.jpg" alt="" className='avatar'/>
+            <img src="./imagines/Iganc Openhaimer.png" alt="" className='avatar'/>
           </div>
           <input type="text" placeholder='Create Post' className='search' />
           <div className='icons'>
