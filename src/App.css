@@ -1,19 +1,29 @@
 .main{
-    display: flex-col;
-    height: 100vh;
     background: #DAE0E6;
     overflow: hidden;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px ;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
     }
 body{
     margin: 0;
 }
+.first_column{
+    width: 640px;
+    
+}
 .create{
-    margin: 20px;
+    margin-bottom: 16px;
     display: flex;
     width: 640px;
     background: #ffffff;
     border: 1px #cccccc solid;
-    border-radius: 3px;
+    border-radius: 4px;
     align-items: center;
     gap: 8px;
 }
@@ -59,8 +69,12 @@ body{
 }
 .imagine{
     background-color: #ffffff;
-    font-size: 25px;
+    font-size: 27px;
     color: #878A8C;
+    padding: 6px;
+}
+#link.imagine{
+    margin-right: 10px;
 }
 .imagine:hover{
     border-radius: 10px;
@@ -70,6 +84,7 @@ body{
 .imagine_button{
     background: #ffffff;
     border: 0px;
+    padding: 0;
 }
 .button_main{
     display: flex;
