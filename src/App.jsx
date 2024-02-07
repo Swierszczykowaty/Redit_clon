@@ -11,7 +11,10 @@ import { BsThreeDots } from "react-icons/bs";
 import { RxViewHorizontal } from "react-icons/rx";
 import { RiArrowDownSLine } from "react-icons/ri";
 import Post from './Post';
-
+import Premium from './Premium';
+import Home from './Home';
+import Recent from './Recent';
+import Policy from './Policy';
 
 function Button_small({ text, icon, className}) {
   return (
@@ -105,13 +108,15 @@ function App() {
               <div>
                 <p>I just started tracking macros and... it's depressing. I thought I was doing ok but I'm having way too little protein.</p>
                 <p>I don't really like meat other than red meat, like I can't just sit and eat a piece of chicken. But yesterday I had (among other things): peanut butter on sprouted bread that had protein, cottage cheese, a protein shake, collagen supplement, and chicken sausage for dinner as my main sources of protein and I was way way under the recommended 120 grams. I was at like 78 g. I also had Hummus and an avocado, which I know have a little protein too.</p>
-                <p>I have been doing more bodyweight exercises, but I'm not seeing the results I want and I think it's diet related. What do you all do here to get enough protein to supplement workouts/what would you recommend for me?</p>
-                <p>Edit: I can't reply to everyone, so I'll reply here: thank you all so much!! I have SO many ideas to go off of now. Info I should have included in the post: I'm a woman, and all of my food related goals in the past have been stay skinny so it's been all about cutting calories. This is my first time eating with the goal of being stronger, instead of it being appearance based. I'm so excited to try all of these foods and continue to build strength!</p>
               </div>
             }
           />
         </div>
         <div className='second_column'>
+          <Premium></Premium>
+          <Home></Home>
+          <Recent></Recent>
+          <Policy></Policy>
 
         </div>
       </div>

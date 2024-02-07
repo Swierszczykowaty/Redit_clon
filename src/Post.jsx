@@ -43,6 +43,8 @@ function Post({ subredditName, user, time, title, mark, post, avatar_sub, markCo
         }
     };
 
+    
+
   return (
     <>
         <div className='post'>

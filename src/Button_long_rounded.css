@@ -1,0 +1,18 @@
+.mains{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: #ff4500;
+    width: 286px;
+    height: 32px;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border: 1px #cccccc solid;
+}
+.mains:hover{
+    background-color: #cccccc;
+}

@@ -9,6 +9,7 @@
     justify-content: start;
     overflow: hidden;
     cursor: pointer;
+    
 }
 .post:hover{
     border: 1px #898989 solid;
@@ -33,11 +34,11 @@
     color: chocolate;
 }
 .arrow.clicked {
-    color: chocolate; /* Kolor strzałki po kliknięciu w górę */
+    color: chocolate; 
 }
 
 .arrow.clicked.down {
-    color: #7193ff; /* Kolor strzałki po kliknięciu w dół */
+    color: #7193ff; 
 }
 #down.arrow:hover{
     color: #7193ff;
@@ -45,6 +46,7 @@
 .arrows_counter{
     margin-top: 10px;
     align-items: center;
+    user-select: none;
 }
 
 .counter{
@@ -175,6 +177,7 @@
     height: 160px;
     position: absolute;
     bottom: 30px;
+    
 }
 .dot{
     margin-left: 5px;
