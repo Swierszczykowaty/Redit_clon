@@ -1,10 +1,44 @@
-.box{
+.box_policy{
     margin-bottom: 10px;
     display: flex;
-    width: 310px;
+    width: 290px;
     background: #ffffff;
     border: 1px #cccccc solid;
     border-radius: 4px;
-    justify-content: start;
+    padding: 12px;
+    flex-direction: column;
+}
+.box_policy_main{
+    display: flex;
+    margin-right: 8px;
+    font: 1em sans-serif;
+}
+.box_policy_main2{
+    height: auto;
+    width: 143px;
+    line-height: 16px;
+}
+.policy_text{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #606062;
+}
+.policy_lang{
+    height: auto;
+    width: 143px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.policy_red{
+    font: 1em sans-serif;
+}
+.line_policy{
+    
+    height: 0.5px;
+    background: #1A1A1B12;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }

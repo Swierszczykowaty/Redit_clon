@@ -1,10 +1,67 @@
-.box{
+.box_home{
     margin-bottom: 10px;
     display: flex;
-    width: 310px;
-    
+    width: 290px;
+    background: #ffffff;
     border: 1px #cccccc solid;
     border-radius: 4px;
-    justify-content: start;
+    align-items: center;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_box{
+    height: 36px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+.banner{
+    height: 36px;
+}
+.home_logo_box{
+    display: flex;
+    margin: 10px;
     
+}
+.absolute{
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+}
+.snoo{
+    width: 40px;
+    height: 68px;
+}
+.text_home{
+    margin-top: 75px;
+    padding-left: 6px;
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: 14px;
+    color: #1c1c1c;
+    word-wrap: break-word;
+    line-height: 21px;
+    max-width: 35ch
+}
+.text_title_home{
+    font-size: 15px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    font-family:Arial, Helvetca, sans-serif;
+    color: #353535;
+    font-weight:600;
+}
+.line_home{
+    height: 0.5px;
+    background: #1A1A1B12;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

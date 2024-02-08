@@ -35,7 +35,6 @@ function App() {
         <div className="first_column">
           <div className='create' id='search'>
             <div className='avatar_circle'>
-              <img src="./imagines/Iganc Openhaimer.png" alt="" className='avatar'/>
             </div>
             <input type="text" placeholder='Create Post' className='search' />
             <div className='icons'>
@@ -98,12 +97,12 @@ function App() {
           />
           <Post 
             avatar_sub="./imagines/uwaga.png"
-            subredditName="r/Cykadło"
-            user="u/Rocha2115"
+            subredditName="r/Stupki"
+            user="u/Xx_MaciekSobotka123_xX"
             time="4"
-            title="How do you get enough protein in your diet to promote muscle growth from your workouts?"
-            mark="Workout"
-            markColor="#8d6a9f"
+            title="Skąd brać darmowe foot obrazki w polsce"
+            mark="Fotografia"
+            markColor="#df3079"
             post={
               <div>
                 <p>I just started tracking macros and... it's depressing. I thought I was doing ok but I'm having way too little protein.</p>

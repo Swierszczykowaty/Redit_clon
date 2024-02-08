@@ -1,8 +1,8 @@
-.box{
+.box_premium{
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    width: 310px;
+    width: 290px;
     background: #ffffff;
     border: 1px #cccccc solid;
     border-radius: 4px;

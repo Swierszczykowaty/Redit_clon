@@ -9,7 +9,7 @@ function Premium() {
 
   return (
     <>
-        <div className='box'>
+        <div className='box_premium'>
             <div className='top_box'>
                 <GiCheckedShield className='shield'/>
                 <div className=''>
