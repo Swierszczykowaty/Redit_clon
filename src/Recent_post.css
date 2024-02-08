@@ -25,8 +25,11 @@
     font: 1em sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: #252525;
+    
     max-width: 28ch;
+}
+.recent_title:hover{
+    text-decoration: underline #252525;
     
 }
 .imagine_recent{
