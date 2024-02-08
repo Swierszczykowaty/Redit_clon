@@ -33,7 +33,7 @@ function Recent() {
           <div>
             <Recent_post
             imageUrl='imagines/1688649930063.jpg'
-            title={"Wyprawa do Dino o 7:00 to był zły pomysł [MOGLI ZGINĄĆ!]"}
+            title={"Wyprawa do Dino o 7:00 to był zły pomysł"}
             points={5214}
             comments={809}
             time={7}/>

@@ -31,9 +31,10 @@ body{
 /* #search.create{
     padding: 8px;
 }
+*/
 #trend.create{
-    padding: 8px;
-} */
+    height: 61px;
+} 
 .avatar_circle{
     display: flex;
     aspect-ratio: 1;
@@ -61,7 +62,6 @@ body{
     border: 1px #EDEFF1 solid;
     border-radius: 6px;
     background: #F6F7F8;
-    
 }
 .search:hover {
     border-color: #2f5ef9;
