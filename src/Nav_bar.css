@@ -121,11 +121,69 @@
 }
 .nav_icons_bar{
   display: flex;
-  
+  align-items: center;
 }
 .nav_icons{
-  padding-right: 6px;
-  padding-left: 6px;
+  padding: 6px;
+  border-radius: 4px;
   color: #3c3c3c;
   font-size: 21px;
+  margin: 6px;
+  display: flex;
+}
+.nav_icons:hover{
+  background: #edeff1;
+}
+#ano.nav_icons{
+  padding: 0px;
+  margin: 0px;
+  
+}
+#ano.nav_icons:hover{
+  background: #d2d2d2;
+}
+.ano_box{
+  display: flex;
+  background:#EDEFF1;
+  border-radius: 30PX;
+  width: 21px;
+  height: 21px;
+  padding: 8px;
+  margin-left: 2px;
+}
+.ano_box:hover{
+  background: #d2d2d2;
+}
+.nav_avatar_box{
+  width: 213px;
+  display: flex;
+  justify-content: center;
+}
+.nav_small_avata_box{
+  display: flex;
+  align-items: center;
+}
+.nav_avatar_arrow{
+  display: flex;
+  align-items: center;
+}
+.nav_avatar{
+  margin: 10px;
+  border: 1px #898989 solid;
+  border-radius: 6px;
+  height: 24px;
+  width: 24px;
+  background-image: url(imagines/Iganc_Openhaimer.png);
+  background-size: cover; 
+  background-position: center;
+}
+.nav_username{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_karma{
+  display: flex;
+} 
+.nav_letters{
+  
 }

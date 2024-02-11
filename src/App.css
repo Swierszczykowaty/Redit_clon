@@ -25,7 +25,6 @@ body{
     border: 1px #cccccc solid;
     border-radius: 4px;
     align-items: center;
-    gap: 8px;
     
 }
 /* #search.create{
@@ -62,6 +61,7 @@ body{
     border: 1px #EDEFF1 solid;
     border-radius: 6px;
     background: #F6F7F8;
+    margin-right: 6px;
 }
 .search:hover {
     border-color: #2f5ef9;

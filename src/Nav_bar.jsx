@@ -6,7 +6,11 @@ import { CiSearch } from "react-icons/ci";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { TfiCommentAlt } from "react-icons/tfi";
 import { BsBell } from "react-icons/bs";
-import { BsPlusLg } from "react-icons/bs";function Nav_Bar() {
+import { TfiAnnouncement } from "react-icons/tfi";
+
+
+import { BsPlusLg } from "react-icons/bs";
+function Nav_Bar() {
   const [expanded, setExpanded] = useState(false);
   const menuRef = useRef(null);
 
@@ -55,6 +59,26 @@ import { BsPlusLg } from "react-icons/bs";function Nav_Bar() {
             <TfiCommentAlt className='nav_icons'/>
             <BsBell className='nav_icons'/>
             <BsPlusLg className='nav_icons'/>
+            <div className='ano_box'>
+            <TfiAnnouncement className='nav_icons' id='ano'/>
+            </div>
+          </div>
+          <div className='nav_avatar_box'>
+            <div className='nav_small_avata_box'>
+                <div className='nav_avatar'></div>
+                <div className='nav_letters'>
+                  <div className='nav_username'>
+                    Ignac
+                  </div>
+                  <div className='nav_karma'>
+                    1 karma 
+                  </div>
+                </div>
+                
+            </div>
+            <div className='nav_avatar_arrow'>
+              <IoIosArrowDown className='nav_arrow'/>
+            </div>
           </div>
         </div>
       </nav>
