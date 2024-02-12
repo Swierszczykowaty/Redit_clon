@@ -15,7 +15,7 @@ function Recent() {
           <div>
             <Recent_post
             imageUrl='imagines/IMG_20221028_180834.jpg'
-            title={"Inegracja w altance - Początek czy koniec?"}
+            title={"Integracja w altance - Początek czy koniec?"}
             points={47}
             comments={3}
             time={6}/>
