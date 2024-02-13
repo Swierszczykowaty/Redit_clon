@@ -43,9 +43,9 @@ function Nav_Bar() {
               </div>
             {expanded && (
               <ul>
-                <li>OPCJA 1</li>
-                <li>Opcja 2</li>
-                <li>Opcja 3</li>
+                <li>Menu</li>
+                <li>popular</li>
+                <li>trending</li>
               </ul>
             )}
           </div>
