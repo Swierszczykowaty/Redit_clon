@@ -14,8 +14,8 @@ function Recent() {
           </div>
           <div>
             <Recent_post
-            imageUrl='imagines/IMG_20221028_180834.jpg'
-            title={"Integracja w altance - Początek czy koniec?"}
+            imageUrl='./imagines/monkey-body.png'
+            title={"Lorem ipsum dolor sit, amet consectetur adipisicing."}
             points={47}
             comments={3}
             time={6}/>
@@ -23,8 +23,8 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='imagines/szeregoweic_iganc.png'
-            title={"Czy Enlisted jest realistyczne?"}
+            imageUrl='./imagines/duck-body.png'
+            title={"Lorem ipsum dolor sit."}
             points={214}
             comments={23}
             time={3}/>
@@ -32,8 +32,8 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='imagines/1688649930063.jpg'
-            title={"Wyprawa do Dino o 7:00 to był zły pomysł"}
+            imageUrl='./imagines/cow-body.png'
+            title={"Lorem ipsum dolor sit amet."}
             points={5214}
             comments={809}
             time={7}/>
@@ -41,17 +41,18 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='imagines/1688649929896.jpg'
-            title={'"Mleko" - Przyszłość świata?'}
+            imageUrl='./imagines/bear-body.png'
+            title={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
             points={120}
             comments={32}
             time={1}/>
           </div>
           <div className='line_recent'></div>
           <div>
+            
             <Recent_post
-            imageUrl='imagines/1688649929615.jpg'
-            title={"Znalazł prosty sposób na zarabianie 14k w miesiąc!"}
+            imageUrl='./imagines/sheep-body.png'
+            title={"Lorem ipsum dolor sit amet."}
             points={2145}
             comments={273}
             time={1}/>
