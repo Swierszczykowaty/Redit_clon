@@ -41,6 +41,8 @@
   font-weight: bold;
   font-size: 13px;
   position: relative;
+  cursor: pointer;
+
 }
 .nav_home.show-border {
   border: 7px solid #2f5ef9; 

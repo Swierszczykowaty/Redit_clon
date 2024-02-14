@@ -37,19 +37,26 @@ function Img_menu({ text, imageSrc }) {
 
 function Nav_Bar() {
   const [expanded, setExpanded] = useState(false);
+  const [expanded2, setExpanded2] = useState(false);
   const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setExpanded(!expanded);
   };
-  
+  const toggleMenu2 = () => {
+    setExpanded2(!expanded2);
+  };
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       setExpanded(false);
     }
   };
-
+  const handleClickOutside2 = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setExpanded2(false);
+    }
+  };
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -106,7 +113,10 @@ function Nav_Bar() {
             <TfiAnnouncement className='nav_icons' id='ano'/>
             </div>
           </div>
-          <div className='nav_avatar_box'>
+          <div onClick={toggleMenu2} className='nav_avatar_box'>
+          {expanded2 && (
+            <div></div>
+          )}
             <div className='nav_small_avata_box'>
                 <div className='nav_avatar'>
                 </div>

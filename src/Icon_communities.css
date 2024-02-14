@@ -5,6 +5,7 @@
     padding-bottom: 8px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .community_box:hover{
     background:#ebebeb;
@@ -30,4 +31,5 @@
 margin-left: auto;
 font-size: 24px;
 color: #878a8c;
+cursor: pointer;
 }
