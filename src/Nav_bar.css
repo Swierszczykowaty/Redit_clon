@@ -1,11 +1,11 @@
 .navbar {
-    background-color: #ffffff; 
-    display: flex;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    height: 49px;
-  }
+  background-color: #ffffff; 
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 49px;
+}
 .nav_box{
   height: auto;
   width: 100%;
@@ -14,10 +14,10 @@
   margin-left: 20px;
   margin-right: 20px;
 }
-  .panda{
-    width: 120px;
-    height: auto;
-  }
+.panda{
+  width: 120px;
+  height: auto;
+}
 .nav_title{
   margin-left: 10px;
   color: orangered;
@@ -42,12 +42,47 @@
   font-size: 13px;
   position: relative;
 }
+.nav_home.show-border {
+  border: 7px solid #2f5ef9; 
+  border-radius: 4px; 
+}
 .nav_menu{
   position: relative;
 }
 .nav_home:hover{
   border:1px #ebebeb solid;
   border-radius: 4px;
+}
+.nav_menu_box{
+  background: #fff;
+  position: absolute;
+  width: 260px;
+  margin-left: 15px;
+  border: 1px solid #ebebeb;
+  border-top-color: #ffffff;
+  padding-bottom: 16px;
+  overflow: auto;
+  max-height: 470px;
+}
+.nav_community_title{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#878a8c ;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.nav_community_search{
+  padding-left:5px;
+  height: 30px;
+  width: 204px;
+  border: 1px #EDEFF1 solid;
+  background: #F6F7F8;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .nav_house{
   font-size: 22px;
@@ -61,38 +96,11 @@
   font-size: 14px;
   color: #6e6e6e;
 }
-.nav_menu ul {
-  list-style-type: none;
-  padding: 0;
-  background: #ffffff;
-  border:1px #ebebeb solid;
-  border-radius: 4px;
-  margin-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  
-}
 .nav_hom_menu{
   display: flex;
   align-items: center;
   justify-content: start;
-  
 }
-
-.nav_menu ul li {
-  cursor: pointer;
-}
-.nav_menu ul li:hover {
-  background-color: #f0f0f0;
-}
-.nav_menu ul li:first-child {
-  padding-top: 0px;
-}
-.nav_menu ul li:last-child {
-  padding-top: 0px;
-}
-
 .nav_search{
   padding-left:5px;
   width: 100%;
@@ -137,7 +145,6 @@
 #ano.nav_icons{
   padding: 0px;
   margin: 0px;
-  
 }
 #ano.nav_icons:hover{
   background: #d2d2d2;
@@ -161,7 +168,6 @@
   padding: 4px;
   border: #ffffff 1px solid;
   border-radius: 3px;
-
 }
 .nav_avatar_box:hover{
  border: #d2d2d2 1px solid;
@@ -177,21 +183,22 @@
 }
 .nav_avatar{
   margin: 0px;
-  border: 1px #898989 solid;
+  border: 1px #bdbdbd solid;
   border-radius: 6px;
   height: 24px;
   width: 24px;
   overflow: hidden;
-  background-image: url(./imagines/fox-body.png);
+  background-image: url(./imagines/fox-body.svg);
   background-size: cover; 
   background-position: center;
-
 }
+
 .nav_username{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding-bottom: 6px;
 }
+
 .nav_karma{
 font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;

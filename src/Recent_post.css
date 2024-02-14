@@ -19,19 +19,17 @@
     display: flex;
     align-items: start;
     border: 1px solid #e6e6e6;
-    
+    image-rendering: pixelated;
 }
 .recent_title{
     margin-bottom: 7px;
     font: 1em sans-serif;
     font-size: 13px;
     font-weight: 600;
-    
     max-width: 28ch;
 }
 .recent_title:hover{
     text-decoration: underline #252525;
-    
 }
 .imagine_recent{
     width: 50px;

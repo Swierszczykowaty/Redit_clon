@@ -29,7 +29,6 @@
     width: 143px;
     display: flex;
     flex-direction: column;
-    
 }
 .policy_red{
     font: 1em sans-serif;
@@ -40,5 +39,4 @@
     background: #1A1A1B12;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }

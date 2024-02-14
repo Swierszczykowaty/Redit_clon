@@ -36,8 +36,7 @@ function App() {
         <div className='main'>
           <div className="first_column">
             <div className='create' id='search'>
-              <div className='avatar_circle'>
-              </div>
+              <div className='avatar_circle'></div>
               <input type="text" placeholder='Create Post' className='search' />
               <div className='icons'>
                 <button className='imagine_button'>
@@ -54,7 +53,7 @@ function App() {
               <Button_small text="New" icon={<FaRegSun size={25}/>} />
               <Button_small text="Top" icon={<IoPodiumOutline size={25}/>} />
               <button className='dotdotdot'>
-                <BsThreeDots className='dot'/>
+                <BsThreeDots className='doot'/>
               </button>
               <div className='view_dot'>
               <RxViewHorizontal className='view'/>
@@ -62,7 +61,7 @@ function App() {
               </div>
             </div>
             <Post 
-              avatar_sub="./imagines/cow-body.png"
+              avatar_sub="./imagines/cow-body.svg"
               subredditName="r/Lorem"
               user="u/user2324"
               time="4"
@@ -76,9 +75,10 @@ function App() {
                   <p>Dolores non voluptatum labore, et saepe quae animi sunt itaque ipsum dignissimos impedit sint rem quos. Ratione, distinctio deleniti molestiae, quidem quas ipsa impedit maiores ab eum esse aliquam obcaecati.</p>
                 </div>
               }
+              comment="82"
             />
             <Post 
-              avatar_sub="./imagines/bear-body.png"
+              avatar_sub="./imagines/bear-body.svg"
               subredditName="r/Lorem"
               user="u/user2024"
               time="7"
@@ -93,9 +93,10 @@ function App() {
                   <p>Necessitatibus magnam autem similique ullam rerum quas ea quos fuga nulla? Maxime tempore dignissimos quis iure praesentium repellat officia maiores unde, id dolor saepe repellendus suscipit! Culpa omnis quo consequatur ut obcaecati cum praesentium, error suscipit laborum laudantium amet vitae. Sapiente temporibus placeat earum. Corrupti non repellat temporibus vero sequi tenetur ipsa molestiae, consequatur illum voluptate?</p>
                 </div>
               }
+              comment="190"
             />
             <Post 
-              avatar_sub="./imagines/lion-body.png"
+              avatar_sub="./imagines/sheep-body.svg"
               subredditName="r/Lorem"
               user="u/user1203"
               time="4"
@@ -109,6 +110,7 @@ function App() {
                   <p>Doloremque excepturi rem facilis maiores reiciendis accusamus fugiat laborum suscipit ab libero. Et voluptates deserunt sit impedit voluptatibus illum eaque aliquam accusantium nam.</p>
                 </div>
               }
+              comment="12"
             />
           </div>
           <div className='second_column'>

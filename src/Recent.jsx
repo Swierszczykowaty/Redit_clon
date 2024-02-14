@@ -14,7 +14,7 @@ function Recent() {
           </div>
           <div>
             <Recent_post
-            imageUrl='./imagines/monkey-body.png'
+            imageUrl='./imagines/monkey-body.svg'
             title={"Lorem ipsum dolor sit, amet consectetur adipisicing."}
             points={47}
             comments={3}
@@ -23,7 +23,7 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='./imagines/duck-body.png'
+            imageUrl='./imagines/bunny-body.svg'
             title={"Lorem ipsum dolor sit."}
             points={214}
             comments={23}
@@ -32,7 +32,7 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='./imagines/cow-body.png'
+            imageUrl='./imagines/cow-body.svg'
             title={"Lorem ipsum dolor sit amet."}
             points={5214}
             comments={809}
@@ -41,7 +41,7 @@ function Recent() {
           <div className='line_recent'></div>
           <div>
             <Recent_post
-            imageUrl='./imagines/bear-body.png'
+            imageUrl='./imagines/bear-body.svg'
             title={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
             points={120}
             comments={32}
@@ -51,7 +51,7 @@ function Recent() {
           <div>
             
             <Recent_post
-            imageUrl='./imagines/sheep-body.png'
+            imageUrl='./imagines/sheep-body.svg'
             title={"Lorem ipsum dolor sit amet."}
             points={2145}
             comments={273}

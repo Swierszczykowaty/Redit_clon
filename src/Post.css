@@ -9,7 +9,6 @@
     justify-content: start;
     overflow: hidden;
     cursor: pointer;
-    
 }
 .post:hover{
     border: 1px #898989 solid;
@@ -36,7 +35,6 @@
 .arrow.clicked {
     color: chocolate; 
 }
-
 .arrow.clicked.down {
     color: #7193ff; 
 }
@@ -48,7 +46,6 @@
     align-items: center;
     user-select: none;
 }
-
 .counter{
     text-align: center;
     font-size: 13px;
@@ -118,7 +115,6 @@
     padding-right: 5px;
     color: #222222;
     position: relative;
-    
 }
 .title_mark{
     display: inline;
@@ -177,7 +173,6 @@
     height: 160px;
     position: absolute;
     bottom: 30px;
-    
 }
 .dot{
     margin-left: 5px;

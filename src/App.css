@@ -15,7 +15,6 @@ body{
 }
 .first_column{
     width: 640px;
-    
 }
 .create{
     margin-bottom: 16px;
@@ -27,10 +26,6 @@ body{
     align-items: center;
     
 }
-/* #search.create{
-    padding: 8px;
-}
-*/
 #trend.create{
     height: 61px;
 } 
@@ -38,13 +33,13 @@ body{
     display: flex;
     aspect-ratio: 1;
     width: 38px;
-    border: 2px #cccccc solid;
+    border: 1px #cccccc solid;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     margin: 8px;
-    background-image: url(imagines/fox-body.png);
+    background-image: url(imagines/fox-body.svg);
     background-size: cover; 
     background-position: center;
 }
@@ -62,6 +57,9 @@ body{
     border-radius: 6px;
     background: #F6F7F8;
     margin-right: 6px;
+}
+input:focus{
+    outline: none;
 }
 .search:hover {
     border-color: #2f5ef9;
@@ -136,7 +134,7 @@ body{
 .dotdotdot:hover{
     background: #e4e4e4;
 }
-.dot{
+.doot{
     color: #878A8C;
     font-size: 20px;
 }

@@ -9,8 +9,8 @@ import { PiArrowBendUpRightLight } from "react-icons/pi";
 import { CiSaveDown2 } from "react-icons/ci";
 import { BsThreeDots } from "react-icons/bs";
 
-function Post({ subredditName, user, time, title, mark, post, avatar_sub, markColor }) {
-    const [count, setCount] = useState(0);
+function Post({ subredditName, user, time, title, mark, post, avatar_sub, markColor,comment,counter }) {
+    const [count, setCount] = useState(counter=0);
     const [upClicked, setUpClicked] = useState(false);
     const [downClicked, setDownClicked] = useState(false);
 
@@ -90,7 +90,7 @@ function Post({ subredditName, user, time, title, mark, post, avatar_sub, markCo
                 <div className='action_buttons'>
                     <div className='action_buttons_box'>
                         <TfiComment className='button' id='com'/>
-                        2 Comments
+                        {comment} Comments
                     </div>
                     <div className='action_buttons_box'>
                         <PiArrowBendUpRightLight className='button' id='share' />

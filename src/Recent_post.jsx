@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Recent_post.css';
 
 
-function Recent_post({imageUrl, title,points,comments,time}) {
+function Recent_post({imageUrl, title ,points ,comments ,time}) {
 
   return (
     <>
